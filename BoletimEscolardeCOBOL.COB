@@ -121,9 +121,9 @@
 
 
             IF (WS-NOTA1 IS NOT NUMERIC) OR (WS-NOTA1 IS = 0000)
-                OR (WS-NOTA2 IS NOT NUMERIC) OR (WS-NOTA1 IS = 0000)
-                OR (WS-NOTA3 IS NOT NUMERIC) OR (WS-NOTA1 IS = 0000)
-                OR (WS-NOTA4 IS NOT NUMERIC) OR (WS-NOTA1 IS = 0000)
+                OR (WS-NOTA2 IS NOT NUMERIC) OR (WS-NOTA2 IS = 0000)
+                OR (WS-NOTA3 IS NOT NUMERIC) OR (WS-NOTA3 IS = 0000)
+                OR (WS-NOTA4 IS NOT NUMERIC) OR (WS-NOTA4 IS = 0000)
                     PERFORM P800-ERRO
             ELSE
                 PERFORM P200-CALC
